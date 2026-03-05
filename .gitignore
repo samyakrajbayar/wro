@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.vscode/
+detection_output/
+verification_results/
+runs/
+*.log
+*.tmp
+.DS_Store

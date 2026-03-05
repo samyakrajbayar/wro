@@ -1,0 +1,25 @@
+# ============================================================
+# LEGO Object Detection - YOLOv8 Dataset Configuration
+# ============================================================
+# This file tells YOLOv8 where to find your dataset and what
+# classes to detect. Update the paths below to match your setup.
+
+# Dataset root directory (absolute path recommended)
+path: ./data
+
+# Subdirectories relative to 'path'
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 6
+
+# Class names (order matters - matches label indices 0-5)
+names:
+  0: lego_block
+  1: lego_rod
+  2: barrier
+  3: rectangular_trowel
+  4: cement_bowl
+  5: masonry_trowel

@@ -1,0 +1,10 @@
+# LEGO Object Detection - Dependencies
+# Install: pip install -r requirements.txt
+
+ultralytics>=8.1.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+albumentations>=1.3.0
+Pillow>=10.0.0
+PyYAML>=6.0
+google-generativeai>=0.3.0
