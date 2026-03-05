@@ -18,7 +18,7 @@ import argparse
 from pathlib import Path
 
 # Setup API
-api_key = os.environ.get("GOOGLE_API_KEY") or "AIzaSyAGFK-4068Wy_iwqyrNm6v6VceQAY2M4fk"
+api_key = os.environ.get("GOOGLE_API_KEY") or "(removethisAIzaSyAGFK-4068Wy_iwqyrNm6v6VceQAY2M4fk)"
 genai.configure(api_key=api_key)
 
 def process_image(img):
